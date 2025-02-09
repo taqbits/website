@@ -18,6 +18,12 @@ export default [
       "no-empty": "warn",
       "no-empty-pattern": "off", // Disable this rule for RR meta empty object destructuring
       "@typescript-eslint/no-namespace": "off", // Disable this rule for RR routes types
+      "at-rule-no-unknown": [
+        true,
+        {
+          ignoreAtRules: ["custom-variantcss"],
+        },
+      ],
     },
   },
   {

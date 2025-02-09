@@ -1,3 +1,4 @@
+import { Button } from "~/components/ui/button";
 import type { Route } from "./+types/home";
 
 export function meta({}: Route.MetaArgs) {
@@ -10,7 +11,14 @@ export function meta({}: Route.MetaArgs) {
 export default function Home() {
   return (
     <div>
-      <h1>some home</h1>
+      <h1 className="text-red-600">some heading</h1>
+      <Button variant={"destructive"} onClick={() => alert("Yo shad")}>
+        click me
+      </Button>
+
+      <Button variant={"outline"} onClick={() => alert("Yo shad")}>
+        click me
+      </Button>
     </div>
   );
 }
