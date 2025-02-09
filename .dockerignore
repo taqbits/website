@@ -1,4 +1,14 @@
-.react-router
-build
-node_modules
+.DS_Store
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
 README.md

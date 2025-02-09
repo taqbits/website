@@ -12,11 +12,11 @@ export default function Home() {
   return (
     <div>
       <h1 className="text-red-600">some heading</h1>
-      <Button variant={"destructive"} onClick={() => alert("Yo shad")}>
+      <Button variant={"destructive"} onClick={() => alert("Yo shad")} className="animate-fade-in">
         click me
       </Button>
 
-      <Button variant={"outline"} onClick={() => alert("Yo shad")}>
+      <Button variant={"outline"} onClick={() => alert("Yo shad")} className="animate-slide-left">
         click me
       </Button>
     </div>

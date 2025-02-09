@@ -28,6 +28,7 @@
     "feather-icons": "^4.29.2",
     "isbot": "^5.1.17",
     "lucide-react": "^0.475.0",
+    "open-props": "^1.7.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^7.1.5",
